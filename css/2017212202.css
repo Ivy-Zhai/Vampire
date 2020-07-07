@@ -1,0 +1,225 @@
+body{
+	background-image: url(../images/背景.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.pics{
+	top: 0;
+	left: 180px;
+	width: 800px;
+	height: 440px;
+    overflow: hidden;
+    box-shadow:0 0 5px white;
+}
+
+.ha{
+	display: inline-block;
+}
+
+#content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+@font-face{
+	font-family: '哥特1';
+	src:url('zxfmhgtt_downyi.com.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: '哥特2';
+	src:url('哥特式字体.ttf ') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.biaoti{
+	text-align: center;
+	font-size: 60px;
+	margin: 10px 0 0 0;
+}
+
+p{
+	font-size: 18px;
+	line-height: 24px;
+	text-align: left;
+}
+
+.formm{
+	float: right;
+	margin-right: 180px;
+	width: 280px;
+	background-color:rgba(42,42,42,0.5);
+}
+
+.copyright{
+	background-color:rgba(42,42,42,0.8);
+	width: 100%;
+	padding: 1px 0;
+}
+
+.center{
+	text-align: center;
+	line-height: 28px;
+}
+
+h1,h2,h3{
+	font-family: '哥特1';
+}
+
+.basic{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.intropics{
+	width: 150px;
+	height: 200px;
+}
+
+tr > td:last-child{
+	padding: 15px;
+}
+
+li a:link,li a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover,li a:active{
+	color: white;
+	text-decoration: underline;
+	-webkit-text-stroke: 0.1px red;
+}
+
+#jieshao{
+	background-color:rgba(42,42,42,0.5);
+	width: 100%;
+}
+
+span{
+	color: #aaaaaa;
+	text-decoration: line-through;
+}
+
+.zhuming{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	vertical-align: baseline;
+}
+
+.biao1{
+	width: 250px;
+}
+
+.biao{
+	width: 85%;
+	text-align: center;
+	padding: 3px 5px;
+	margin: 0;
+	border:1px solid black;
+	float: left;
+}
+
+.shangxi1{
+	width: 30%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.shangxi2{
+	width: 30%;
+	display: inline-block;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.shangxi3{
+	width: 30%;
+	float: right;
+	display: inline-block;
+	text-align: center;
+}
+
+audio{
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.form{
+	width: 80%;
+	margin: 0 auto;
+	padding: 2% 5%;
+	background-color:rgba(42,42,42,0.7);
+	border: 3px dotted white;
+}
+
+input[type="text"]{
+	border: 2px solid black;
+	height: 24px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #9A9A9A;
+}
+
+input[type="submit"]
+{
+	border-radius: 3px;
+	font-size: 18px;
+	height: 32px;
+	width: 60px;
+	margin: 0 auto;
+}
+
+input[type="radio"]{
+	vertical-align: middle;
+	text-align: center;
+}
+
+select{
+	height: 32px;
+	font-size: 18px;
+	background-color: #9a9a9a;
+	border-radius:5px;
+	width: 150px;
+	border: 2px solid black;
+}
+
+.right{
+	float: right;
+	width: 45%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.left{
+	margin-left: 5%;
+	float: left;
+	width: 45%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+textarea{
+	height: 60px;
+	width: 80%;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 9px;
+	background-color: #9A9A9A;
+	border: 2px solid black;
+}
+
+video{
+	width: 100%;
+}
